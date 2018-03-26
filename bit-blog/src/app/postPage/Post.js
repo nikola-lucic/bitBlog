@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import PostContent from "./PostContent";
 import PostRelatedLinks from "./PostRelatedLinks";
 
-export default Post;
-
-class Post extends React {
+class Post extends React.Component {
+    constructor(props) {
+      super(props)
+    }
   render() {
     return (
       <main className="container">
@@ -14,3 +15,5 @@ class Post extends React {
     );
   }
 }
+
+export default Post;

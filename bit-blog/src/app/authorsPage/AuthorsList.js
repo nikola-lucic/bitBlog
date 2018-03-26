@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-const AuthorsLists = props => {
+const AuthorsLists = (props) => {
   return (
     <div className="row">
       <ul className="collection">
