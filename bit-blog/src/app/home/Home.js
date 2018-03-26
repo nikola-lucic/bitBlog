@@ -1,13 +1,15 @@
-import React from 'react';
-import PostList from './PostList';
-
+import React from "react";
+import PostList from "./PostList";
 
 class Home extends React.Component {
-    render() {
-       <PostList/> 
-    }
+  render() {
+    return (
+      <main className="container">
+      <h1 className="center-align">Post List</h1>
+        <PostList />
+      </main>
+    );
   }
+}
 
-  export default Home;
-  
-  
+export default Home;
