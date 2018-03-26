@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import React, { Component } from 'react';
 import './App.css';
 import Home from './home/Home';
 import { Switch, Route } from "react-router-dom"
