@@ -7,7 +7,7 @@ const AuthorsPersonalInfo = (props) => {
         <img alt="" />
       </div>
       <div className="col s12 m6 l6">
-        <h2>Name of Author</h2>
+        <h2>{props.authorData.name}</h2>
         <p>user name:</p>
         <p>email:</p>
         <p>phone:</p>

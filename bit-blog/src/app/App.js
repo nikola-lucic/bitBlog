@@ -16,9 +16,9 @@ const App = props => {
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/Post" component={Post} />
-        <Route path="/Authors" component={Authors} />
-        <Route path="/AuthorsInfo" component={AuthorsInfo} />
+        <Route path="/Post/:postId" component={Post} />
+        <Route path="/Authors/" component={Authors} />
+        <Route path="/AuthorsInfo/:authorId" component={AuthorsInfo} />
         <Route path="/About" component={About} />
       </Switch>
       <Footer />
